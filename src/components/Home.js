@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom"; // Import the useNavigate hook
+import { useNavigate } from "react-router-dom"; 
 import tvImage from "../assets/tv.png";
 import mobileImg from "../assets/mobile.jpg";
 import tv2 from "../assets/device-pile-in.png";
@@ -8,10 +8,10 @@ import vid1 from "../assets/tvvideo.m4v";
 import vid2 from "../assets/video2.m4v";
 
 function Home() {
-  const navigate = useNavigate(); // Initialize the useNavigate hook
+  const navigate = useNavigate(); 
 
   const handleSignInClick = () => {
-    navigate("/login"); // Navigate to the Login component when Sign In is clicked
+    navigate("/login");
   };
 
   return (
